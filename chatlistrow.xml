@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        style="#f0f4f3">
+        <ImageView
+            android:id="@+id/friend1img"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/johncooperimage"/>
+        <TextView
+            android:id="@+id/friend1name"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="John Cooper"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#b60cda"/>
+    </LinearLayout>
+    <ImageView
+        android:background="#c18fe1d7"
+        android:layout_height="1dp"
+        android:layout_width="400dp"
+        ></ImageView>
+</layout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#f0f4f3">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/DarkPurpleRectangle">
+                <ImageButton
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/BackArrow"/>
+                    <TextView
+                        android:id="@+id/nameofchat"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="John Cooper"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textSize="35dp"/>
+                    <ImageButton
+                        android:id="@+id/Callbutton"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/img_call"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/DarkPurpleRectangle"
+            android:padding="10dp"
+            android:text="I wanted to ask you about the differences between acyrlic and woll yarn"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/rectangle_bg_white_a700_radius_14"
+            android:layout_marginTop="10dp"
+            android:text="First off, acrylic yarn is far cheaper"
+            android:textColor="#b60cda"
+            android:textSize="18dp"
+            android:padding="10dp"></TextView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/johncooperimage"></ImageView>
+
+        <LinearLayout android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/LightPinkRectangle">
+            <ImageView android:id="@+id/imageattach"
+                android:layout_gravity="top"
+                android:layout_height="@dimen/_24pxh"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="@dimen/_24pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_photo"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_photo"/>
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="Type Something...."
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"></EditText>
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_gravity="top"
+                android:layout_height="24dp"
+                android:layout_marginLeft="130dp"
+                android:layout_width="24dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_camera_alt"/>
+
+            <ImageButton
+                android:id="@+id/editmessage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+                android:background="@android:drawable/ic_menu_edit" />
+
+            <ImageButton
+                android:id="@+id/delete"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@android:drawable/ic_delete"></ImageButton>
+            <ImageButton
+                android:id="@+id/sendicon"
+                android:layout_gravity="top"
+                android:layout_height="24dp"
+                android:layout_width="24dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/img_send"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
