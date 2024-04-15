@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hscreencolor"
+    tools:context=".Search">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1">
+
+
+
+            <ImageView
+                android:id="@+id/circles"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/pinkcircles" />
+
+            <ImageView
+                android:id="@+id/arr"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/hobbyarrowleftt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search Results"
+                android:id="@+id/hello"
+                android:textStyle="bold"
+                android:textColor="@color/hobbygram"
+                android:textSize="32sp"
+                android:layout_marginTop="85dp"
+                android:layout_marginStart="40dp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/r1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/s1"
+        android:background="@drawable/group_279195"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/s2"
+            android:background="@drawable/group_279196"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/s3"
+            android:background="@drawable/group_279198"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/s4"
+            android:background="@drawable/group_279199"/>
+
+    </LinearLayout>
+</RelativeLayout>
