@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screencolor"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:onClick="gotonoti"
+    tools:context=".BookSessions">
+
+    <ImageView
+        android:id="@+id/circles"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/booksession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:text="Booked Sessions"
+        android:textColor="#DB2EFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/arrowleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="107dp"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/johndescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booksession"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="67dp"
+        app:srcCompat="@drawable/booksessionimage" />
+
+    <ImageView
+        android:id="@+id/john"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booksession"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/johnedited" />
+
+    <ImageView
+        android:id="@+id/emma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booksession"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="178dp"
+        app:srcCompat="@drawable/emmaedited" />
+
+    <ImageView
+        android:id="@+id/emadescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booksession"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="207dp"
+        app:srcCompat="@drawable/emmadesc" />
+
+</RelativeLayout>
